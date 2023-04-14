@@ -15,8 +15,7 @@ public class FatController {
 		
 		while(!a.isEmpty()) {
 			try {
-				fat *= a.top();
-				a.pop();
+				fat *= a.pop();
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
